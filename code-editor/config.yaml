@@ -22,6 +22,8 @@ map:
     path: /config
   - type: all_addon_configs
     read_only: false
+  - type: share
+    read_only: false
 options:
   log_level: info
   config_path: /config

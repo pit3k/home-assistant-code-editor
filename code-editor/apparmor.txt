@@ -42,6 +42,7 @@ profile code_editor flags=(attach_disconnected,mediate_deleted) {
   /config/** rwk,
   /homeassistant/** rwk,
   /addon_configs/** rwk,
+  /share/** rwk,
   /root/** rwk,
 
   # Application and system configuration
