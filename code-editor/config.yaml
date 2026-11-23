@@ -1,6 +1,6 @@
 ---
 name: Code Editor
-version: 1.118.0.2
+version: 1.118.0.3
 slug: code_editor
 description: Browser-based code editor for Home Assistant, powered by code-server.
 url: https://github.com/gollyjer/home-assistant-code-editor
@@ -21,6 +21,8 @@ map:
     read_only: false
     path: /config
   - type: all_addon_configs
+    read_only: false
+  - type: share
     read_only: false
 options:
   log_level: info

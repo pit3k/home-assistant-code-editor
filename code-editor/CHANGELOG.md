@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.118.0.3 - 2026-11-23
+
+Maps the Home Assistant `share` folder into the container at `/share`
+with read-write access, and allows that path in the AppArmor profile.
+
 ## 1.118.0.2 - 2026-05-18
 
 Updates the bundled `Home Assistant Extension` from `v2.2.0` to a
